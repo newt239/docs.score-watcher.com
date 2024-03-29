@@ -5,13 +5,14 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Score Watcher Help',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				"x.com": "https://x.com/newt239",
+				github: 'https://github.com/newt239/next-score-watcher',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'ガイド',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', link: '/guides/example/' },
@@ -20,6 +21,10 @@ export default defineConfig({
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: '形式',
+					autogenerate: { directory: 'rules' },
 				},
 			],
 		}),
