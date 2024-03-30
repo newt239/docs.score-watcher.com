@@ -24,7 +24,13 @@ export default defineConfig({
 				},
 				{
 					label: '形式',
-					autogenerate: { directory: 'rules' },
+					items: [
+						{ label: "形式一覧", link: "rules/" },
+						{ label: "スコア計算", link: "rules/normal" },
+						{ label: "N○M✕", link: "rules/nomx" },
+						{ label: "アタックサバイバル", link: "rules/attacksurvival" },
+						{ label: "Z", link: "rules/z" },
+					]
 				},
 			],
 		}),
