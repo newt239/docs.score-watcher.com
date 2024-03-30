@@ -19,7 +19,7 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Reference',
+					label: 'アプリについて',
 					autogenerate: { directory: 'reference' },
 				},
 				{
