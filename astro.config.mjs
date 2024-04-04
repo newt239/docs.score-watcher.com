@@ -31,6 +31,12 @@ export default defineConfig({
 						{ label: "Z", link: "rules/z" },
 					]
 				},
+				{
+					label: '高度な機能',
+					items: [
+						{ label: 'プロファイルの切り替え', link: '/advanced/change-profile/' },
+					],
+				}
 			],
 		}),
 	],
