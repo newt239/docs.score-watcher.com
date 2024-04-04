@@ -1,11 +1,16 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: 最初のゲームを作ろう
+description: 初めてScore Watcherを利用するユーザーのために、ゲームの作成手順をご説明します。
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+初めてScore Watcherを利用するユーザーのために、ゲームの作成手順をご説明します。
 
-## Further reading
+## Step 1: 形式を選ぼう
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+まずは得点表示を行うゲームの形式を選びましょう。Score Watcherでは [形式一覧](/rules/) に掲げる 16 の形式をサポートしています。
+
+[形式一覧｜Score Watcher](https://score-watcher.com/rules/)のページで目的の形式を選択し、緑色の「作る」ボタンをクリックします。
+
+## Step 2: 形式の設定を行おう
+
+次に、選択した形式の設定を行いましょう。形式によって設定項目が異なりますが、一般的には以下のような設定が行えます。

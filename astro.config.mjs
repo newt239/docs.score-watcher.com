@@ -1,5 +1,5 @@
-import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
@@ -14,8 +14,7 @@ export default defineConfig({
 				{
 					label: 'ガイド',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: '最初のゲームを作ろう', link: '/guides/example/' },
 					],
 				},
 				{
