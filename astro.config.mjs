@@ -3,13 +3,14 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://docs.score-watcher.com',
 	integrations: [
 		starlight({
 			title: 'Score Watcher Help',
-			social: {
-				"x.com": "https://x.com/newt239",
-				github: 'https://github.com/newt239/next-score-watcher',
-			},
+			social: [
+				{ icon: 'x.com', label: 'X', href: 'https://x.com/newt239' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/newt239/next-score-watcher' },
+			],
 			sidebar: [
 				{
 					label: 'ガイド',
@@ -19,7 +20,7 @@ export default defineConfig({
 				},
 				{
 					label: 'アプリについて',
-					autogenerate: { directory: 'reference' },
+					items: [{ autogenerate: { directory: 'reference' } }],
 				},
 				{
 					label: '形式',
