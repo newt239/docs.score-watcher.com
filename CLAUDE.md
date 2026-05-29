@@ -24,9 +24,9 @@ pnpm run lint    # eslint --fix
 ユーザーから形式名（例「nomx」「アタックサバイバル」）を指示されたら、
 **`authoring/screenshot-playbook.md` の手順に必ず従う**こと。要点:
 
-1. 撮影対象は別リポジトリのアプリ本体 `/Users/newt/projects/next-score-watcher`（`pnpm run dev` → :3000）。
-2. ブラウザ操作は Playwright MCP（`.mcp.json` 登録済み）。撮影は専用プロファイル `docs_shooting` で行い本番データを汚さない。
-3. 本文の一次ソースはアプリ側 `next-score-watcher/docs/rules/{内部名}.md` と `src/utils/rules.ts`。
+1. 撮影対象は本番サイト `https://score-watcher.com/`。Playwright MCP で直接開く（アプリ本体のローカル起動は不要）。
+2. ブラウザ操作は Playwright MCP（`.mcp.json` 登録済み）。撮影は専用プロファイル `docs_shooting` で行い自分の本番プロファイルのデータを汚さない。
+3. 本文の一次ソースはアプリ本体リポジトリ（`next-score-watcher`、各自のクローン先）の `docs/rules/{内部名}.md` と `src/utils/rules.ts`。
 4. スクショは PNG→webp 変換して `src/assets/rule-{内部名}-{状態}.webp` に保存。
 5. ページ `src/content/docs/rules/{内部名}.mdx` を生成し、**`astro.config.mjs` の sidebar に都度追加**。
 6. 最後に `pnpm run build` で検証。
