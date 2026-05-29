@@ -29,6 +29,7 @@ export default defineConfig({
 						{ label: "スコア計算", link: "rules/normal" },
 						{ label: "N○M✕", link: "rules/nomx" },
 						{ label: "アタックサバイバル", link: "rules/attacksurvival" },
+						{ label: "アタック25", link: "rules/attack25" },
 						{ label: "Z", link: "rules/z" },
 					]
 				},
