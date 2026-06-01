@@ -3,9 +3,13 @@ title: SquareX
 description: 奇数問目と偶数問目の正解数をかけた数がX以上になれば勝ち抜けの形式です。
 ---
 
+import CreateGameButton from "../../../components/CreateGameButton.astro";
+
 奇数問目と偶数問目の正解数をかけた数が X 以上になれば勝ち抜けの形式です。
 
 このルールでは、奇数番目に出題された問題（1 問目・3 問目・…）での正解数と、偶数番目に出題された問題（2 問目・4 問目・…）での正解数を別々に数えます。スコアはこの 2 つの正解数を**かけ算**した値になるため、片方ばかり正解していてもスコアは伸びません。両方をバランスよく正解することが求められる、二次元的な戦略性を持つ形式です。
+
+<CreateGameButton rule="squarex" players={5} />
 
 ## ルール詳細
 
@@ -64,3 +68,9 @@ description: 奇数問目と偶数問目の正解数をかけた数がX以上に
 スコアが X に達したプレイヤーには順位が表示されます。
 
 ![SquareXで1人が勝ち抜けた様子](../../../assets/rule-squarex-win.webp)
+
+## この形式で遊んでみる
+
+下のボタンから、この形式のゲームをすぐに作成して試すことができます。
+
+<CreateGameButton rule="squarex" players={5} />

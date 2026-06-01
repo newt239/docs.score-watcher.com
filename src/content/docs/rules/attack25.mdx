@@ -5,6 +5,8 @@ description: 5×5の25パネルをオセロ形式で奪い合う形式です。
 
 import { Aside } from "@astrojs/starlight/components";
 
+import CreateGameButton from "../../../components/CreateGameButton.astro";
+
 4 人のプレイヤーが、正解するたびに 5×5＝25 枚のパネルを 1 枚ずつ獲得します。獲得したパネルと自分の既存パネルで相手のパネルを挟むと、オセロのように挟まれたパネルが自分の色に反転します。すべてのパネルが埋まったとき、最も多くのパネルを獲得しているプレイヤーが優勝です。
 
 テレビ番組「パネルクイズ アタック25」で実際に使用されている形式を再現しています。
@@ -12,6 +14,8 @@ import { Aside } from "@astrojs/starlight/components";
 <Aside type="caution" title="注意">
   アタック25 形式はプレイヤー数が **必ず 4 人** である必要があります。4 人以外ではゲームを開始できません。
 </Aside>
+
+<CreateGameButton rule="attack25" players={4} />
 
 ## プレイヤーの色
 
@@ -86,3 +90,9 @@ import { Aside } from "@astrojs/starlight/components";
 各プレイヤーが獲得したパネルが、それぞれの色で点灯します。
 
 ![アタック25で各プレイヤーがパネルを獲得した様子](../../../assets/rule-attack25-playing.webp)
+
+## この形式で遊んでみる
+
+下のボタンから、この形式のゲームをすぐに作成して試すことができます（アタック25 は 4 人で開始します）。
+
+<CreateGameButton rule="attack25" players={4} />
