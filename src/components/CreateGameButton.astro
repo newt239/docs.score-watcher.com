@@ -1,0 +1,16 @@
+---
+import { LinkButton } from "@astrojs/starlight/components";
+
+interface Props {
+  rule: string;
+  players?: number;
+  label?: string;
+}
+
+const { rule, players = 5, label = "この形式でゲームを作成" } = Astro.props;
+const href = `https://score-watcher.com/games/new?rule=${rule}&players=${players}`;
+---
+
+<LinkButton {href} icon="right-arrow" target="_blank" rel="noopener">
+  {label}
+</LinkButton>

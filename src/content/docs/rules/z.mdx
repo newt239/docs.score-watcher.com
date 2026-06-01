@@ -3,6 +3,8 @@ title: Z
 description: 5つのステージのクリアを目指す形式です。
 ---
 
+import CreateGameButton from "../../../components/CreateGameButton.astro";
+
 5 つのステージのクリアを目指す形式です。
 
 各プレイヤーはステージ 1 に立った状態でゲームを開始します。
@@ -19,8 +21,16 @@ description: 5つのステージのクリアを目指す形式です。
 
 既定の人数が勝ち抜けたときゲームを終了します。
 
+<CreateGameButton rule="z" players={5} />
+
 ## 変更可能なオプション
 
 ### 限定問題数の設定
 
 詳細は限定問題数をご確認ください。
+
+## この形式で遊んでみる
+
+下のボタンから、この形式のゲームをすぐに作成して試すことができます。
+
+<CreateGameButton rule="z" players={5} />

@@ -3,9 +3,13 @@ title: N○M✕
 description: N回正解で勝ち抜け、M回誤答で失格の形式です。
 ---
 
+import CreateGameButton from "../../../components/CreateGameButton.astro";
+
 N 回正解で勝ち抜け、M 回誤答で失格の形式です。代表的なものに「ナナマルサンバツ（7○3✕）」があり、競技クイズで最も基本的な形式の一つです。
 
 正解を重ねて勝ち抜けを目指す一方、誤答が一定数に達すると失格となるため、解答するかどうかの判断に緊張感が生まれます。
+
+<CreateGameButton rule="nomx" players={5} />
 
 ## ルール詳細
 
@@ -56,3 +60,9 @@ M 回誤答すると失格です。初期設定では 3 回誤答で失格とな
 誤答数が失格誤答数に達したプレイヤーは「LOSE」と表示され、以降採点できなくなります。
 
 ![N○M✕で1人が失格した様子](../../../assets/rule-nomx-lose.webp)
+
+## この形式で遊んでみる
+
+下のボタンから、この形式のゲームをすぐに作成して試すことができます。
+
+<CreateGameButton rule="nomx" players={5} />
