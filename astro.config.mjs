@@ -42,6 +42,7 @@ export default defineConfig({
 						{ label: "AQL", link: "rules/aql" },
 						{ label: "アタック25", link: "rules/attack25" },
 						{ label: "Z", link: "rules/z" },
+						{ label: "freezeX", link: "rules/freezex" },
 					]
 				},
 				{
