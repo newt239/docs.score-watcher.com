@@ -43,6 +43,7 @@ export default defineConfig({
 						{ label: "アタック25", link: "rules/attack25" },
 						{ label: "Z", link: "rules/z" },
 						{ label: "freezeX", link: "rules/freezex" },
+						{ label: "エンドレスチャンス", link: "rules/endless-chance" },
 					]
 				},
 				{
