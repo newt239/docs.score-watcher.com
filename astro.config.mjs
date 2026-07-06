@@ -34,6 +34,7 @@ export default defineConfig({
 						{ label: "NbyN", link: "rules/nbyn" },
 						{ label: "Nupdown", link: "rules/nupdown" },
 						{ label: "Divide", link: "rules/divide" },
+						{ label: "Swedish10", link: "rules/swedish10" },
 						{ label: "アタックサバイバル", link: "rules/attacksurvival" },
 						{ label: "SquareX", link: "rules/squarex" },
 						{ label: "Variables", link: "rules/variables" },
