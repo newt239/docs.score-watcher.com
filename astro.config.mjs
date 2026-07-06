@@ -31,6 +31,7 @@ export default defineConfig({
 						{ label: "連答つきN○M✕", link: "rules/nomx-ad" },
 						{ label: "NewYork", link: "rules/ny" },
 						{ label: "N○M休", link: "rules/nomr" },
+						{ label: "NbyN", link: "rules/nbyn" },
 						{ label: "Divide", link: "rules/divide" },
 						{ label: "アタックサバイバル", link: "rules/attacksurvival" },
 						{ label: "SquareX", link: "rules/squarex" },
