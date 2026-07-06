@@ -28,6 +28,7 @@ export default defineConfig({
 						{ label: "形式一覧", link: "rules/" },
 						{ label: "スコア計算", link: "rules/normal" },
 						{ label: "N○M✕", link: "rules/nomx" },
+						{ label: "Nupdown", link: "rules/nupdown" },
 						{ label: "Divide", link: "rules/divide" },
 						{ label: "アタックサバイバル", link: "rules/attacksurvival" },
 						{ label: "SquareX", link: "rules/squarex" },
