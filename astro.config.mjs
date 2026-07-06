@@ -29,6 +29,7 @@ export default defineConfig({
 						{ label: "スコア計算", link: "rules/normal" },
 						{ label: "N○M✕", link: "rules/nomx" },
 						{ label: "Divide", link: "rules/divide" },
+						{ label: "Backstream", link: "rules/backstream" },
 						{ label: "アタックサバイバル", link: "rules/attacksurvival" },
 						{ label: "SquareX", link: "rules/squarex" },
 						{ label: "Variables", link: "rules/variables" },
