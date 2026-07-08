@@ -1,11 +1,6 @@
 {
   "permissions": {
-    "allow": [
-      "Bash(pnpm --version)",
-      "WebFetch(domain:github.com)"
-    ]
+    "allow": ["Bash(pnpm --version)", "WebFetch(domain:github.com)"]
   },
-  "enabledMcpjsonServers": [
-    "playwright"
-  ]
+  "enabledMcpjsonServers": ["playwright"]
 }

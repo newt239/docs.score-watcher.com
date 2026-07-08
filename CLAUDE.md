@@ -14,9 +14,12 @@ Score Watcher のヘルプドキュメント（Astro Starlight 製、`https://do
 ## コマンド
 
 ```bash
-pnpm run dev     # 開発サーバー :4321
-pnpm run build   # astro check + build（リンク・frontmatter 検証）
-pnpm run lint    # eslint --fix
+pnpm run dev        # 開発サーバー :4321
+pnpm run build      # astro check + build（リンク・frontmatter 検証）
+pnpm run codecheck  # astro check + lint + format + textlint（CI と同等のチェック）
+pnpm run lint:fix   # eslint --fix（lint はチェックのみ）
+pnpm run format:fix # prettier --write（format はチェックのみ）
+pnpm run textlint   # ドキュメント本文の日本語チェック（textlint:fix で自動修正）
 ```
 
 ## 形式ドキュメントを作るとき
