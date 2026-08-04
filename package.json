@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "@astrojs/check": "0.9.10",
-    "@astrojs/starlight": "0.41.5",
-    "astro": "7.1.5",
+    "@astrojs/starlight": "0.41.6",
+    "astro": "7.1.6",
     "sharp": "0.35.3",
     "typescript": "6.0.3"
   },
@@ -34,7 +34,7 @@
     "eslint-plugin-astro": "3.0.1",
     "prettier": "3.9.6",
     "prettier-plugin-astro": "0.14.1",
-    "textlint": "15.7.1",
+    "textlint": "15.8.0",
     "textlint-rule-preset-ja-spacing": "3.0.2",
     "textlint-rule-preset-ja-technical-writing": "12.0.2"
   }
