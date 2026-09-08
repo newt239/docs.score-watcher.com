@@ -23,14 +23,14 @@
   },
   "dependencies": {
     "@astrojs/check": "0.9.10",
-    "@astrojs/starlight": "0.41.10",
-    "astro": "7.2.9",
+    "@astrojs/starlight": "0.42.0",
+    "astro": "7.3.1",
     "sharp": "0.35.4",
     "typescript": "6.0.3"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "8.68.0",
-    "eslint": "10.9.1",
+    "@typescript-eslint/parser": "8.69.0",
+    "eslint": "10.10.0",
     "eslint-plugin-astro": "3.1.0",
     "prettier": "3.9.6",
     "prettier-plugin-astro": "0.14.1",
