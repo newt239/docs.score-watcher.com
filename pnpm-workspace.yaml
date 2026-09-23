@@ -1,4 +1,12 @@
+packages:
+  - "./"
 allowBuilds:
   esbuild: true
   sharp: true
 saveExact: true
+minimumReleaseAge: 10080
+minimumReleaseAgeExcludePrune: true
+minimumReleaseAgeExclude:
+  - "@pnpm/exe.*"
+update:
+  githubActions: true

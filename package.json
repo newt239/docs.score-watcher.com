@@ -2,10 +2,7 @@
   "name": "docs.score-watcher.com",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@11.10.0",
-  "engines": {
-    "node": ">=24.0.0"
-  },
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -18,24 +15,31 @@
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "textlint": "textlint \"src/content/docs/**/*.{md,mdx}\"",
-    "textlint:fix": "textlint --fix \"src/content/docs/**/*.{md,mdx}\"",
-    "preinstall": "npx only-allow pnpm"
+    "textlint:fix": "textlint --fix \"src/content/docs/**/*.{md,mdx}\""
   },
   "dependencies": {
     "@astrojs/check": "0.9.10",
-    "@astrojs/starlight": "0.42.2",
-    "astro": "7.3.3",
+    "@astrojs/starlight": "0.42.1",
+    "astro": "7.3.2",
     "sharp": "0.35.4",
     "typescript": "6.0.3"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "8.70.0",
-    "eslint": "10.11.0",
-    "eslint-plugin-astro": "3.2.1",
-    "prettier": "3.9.8",
-    "prettier-plugin-astro": "1.0.1",
+    "eslint": "10.10.0",
+    "eslint-plugin-astro": "3.1.0",
+    "prettier": "3.9.6",
+    "prettier-plugin-astro": "1.0.0",
     "textlint": "15.8.0",
     "textlint-rule-preset-ja-spacing": "3.0.3",
     "textlint-rule-preset-ja-technical-writing": "12.0.2"
-  }
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24.19.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.5.1"
 }
