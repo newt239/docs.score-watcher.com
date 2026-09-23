@@ -12,7 +12,7 @@
 | 撮影対象アプリ（本番） | Score Watcher 本番サイト → `https://score-watcher.com/`                                                |
 | テキスト一次ソース     | アプリ本体リポジトリ `next-score-watcher`（各自のクローン先。`docs/rules/*.md`・`src/utils/rules.ts`） |
 | ドキュメント           | このリポジトリ（Astro Starlight） → `http://localhost:4321`                                            |
-| ブラウザ操作           | Playwright MCP（`.mcp.json` に登録済み。**Claude Code 再起動でロードされる**）                         |
+| ブラウザ操作           | Playwright MCP（各自の環境で有効化しておく）                                                           |
 | 撮影専用プロファイル   | `docs_shooting`（自分の本番プロファイルのデータを汚さないため）                                        |
 | サンプル問題CSV        | `authoring/fixtures/quiz-sample.csv`（ヘッダー無し3列 `番号,問題文,答え`・100問）                      |
 | サンプルプレイヤーCSV  | `authoring/fixtures/players-sample.csv`（`氏名,説明,所属`・5名固定）                                   |
