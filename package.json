@@ -2,10 +2,7 @@
   "name": "docs.score-watcher.com",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@11.10.0",
-  "engines": {
-    "node": ">=24.0.0"
-  },
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -18,8 +15,7 @@
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "textlint": "textlint \"src/content/docs/**/*.{md,mdx}\"",
-    "textlint:fix": "textlint --fix \"src/content/docs/**/*.{md,mdx}\"",
-    "preinstall": "npx only-allow pnpm"
+    "textlint:fix": "textlint --fix \"src/content/docs/**/*.{md,mdx}\""
   },
   "dependencies": {
     "@astrojs/check": "0.9.9",
@@ -37,5 +33,13 @@
     "textlint": "15.7.1",
     "textlint-rule-preset-ja-spacing": "3.0.2",
     "textlint-rule-preset-ja-technical-writing": "12.0.2"
-  }
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24.19.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.5.1"
 }
